@@ -225,7 +225,7 @@ nav .navigation-links a {
     align-items: center;
     display: flex;
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     width: 100%;
     z-index: 10000;
@@ -240,6 +240,7 @@ nav .navigation-links a {
     font-size: 2.875rem;
     line-height: 1.4;
     margin-top: 0;
+    margin: 0 0 0.67em 0;
 }
 
 .banner-three .third-banner h1 > span {
@@ -254,8 +255,6 @@ nav .navigation-links a {
     line-height: normal;
     margin-bottom: 20px;
     margin-top: -30px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
 }
 
 .banner-three .third-banner p {
@@ -263,5 +262,111 @@ nav .navigation-links a {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.88;
+    width: 390px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.cta-btn-container-3 a {
+    align-items: center;
+    border-radius: 33px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none;
+    background: 0 0;
+    border: 2px solid #4cdeff;
+    margin-top: 8px;
+    padding: 8px 38px;
+}
+
+.banner-four {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.banner-four .fourth-banner {
+    color: #fff;
+    margin-left: 16%;
+}
+
+.banner-four .fourth-banner h1 {
+    font-size: 2.875rem;
+    line-height: 1.4;
+    margin: 0.67em 0;
+    margin-top: 0;
+    color: #61219d;
+}
+
+.banner-four .fourth-banner p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.88;
     width: 400px;
+    color: #371f7b;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.cta-btn-container-4 a {
+    align-items: center;
+    background-color: #6739b7;
+    border-radius: 33px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.slick-dots {
+    list-style: none;
+    margin: 0;
+    position: static !important;
+    text-align: center;
+    width: 100%;
+}
+
+.slick-dots li {
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    margin: 0 3px;
+    padding: 0;
+    position: relative;
+    width: 20px;
+}
+
+.slick-dots li button {
+    background: 0 0;
+    border: 0;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 20px;
+    line-height: 0;
+    outline: 0;
+    padding: 5px;
+    width: 20px;
+}
+.slick-dots li button::after {
+    color: #ddd !important;
+    content: "•";
+    cursor: pointer;
+    font-size: 60px !important;
+    height: 20px;
+    left: 0;
+    line-height: 20px;
+    opacity: 1 !important;
+    position: absolute;
+    text-align: center;
+    /* top: 0; */
+    width: 20px;
+    color: #533093 !important;
 }
