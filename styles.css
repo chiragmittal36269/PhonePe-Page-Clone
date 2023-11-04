@@ -5,9 +5,11 @@
     font-family: sans-serif;
 }
 
+/* nav section */
+
 .header-container {
     background-color: #fff;
-    min-width: max-content;
+    /* min-width: max-content; */
     position: sticky;
     top: 0;
     width: 100%;
@@ -23,6 +25,8 @@ nav {
     margin-left: auto;
     margin-right: auto;
     width: 1268px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
 }
 
 nav .logo img {
@@ -52,4 +56,212 @@ nav .navigation-links a {
     margin: 0 2.8%;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/* hero section */
+
+.hero-section {
+    position: relative;
+    top: 5px;
+    /* width: 1296px; */
+    width: 100%;
+    height: 403.2px;
+    /* overflow: auto; */
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.banner::-webkit-scrollbar {
+    display: none;
+}
+
+.banner-one,
+.banner-two,
+.banner-three,
+.banner-four {
+    min-width: 100%;
+    /* height: 100%; */
+}
+
+.banner-one {
+    background-image: url(./assets/first-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.banner-two {
+    background-image: url(./assets/second-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.banner-three {
+    background-image: url(./assets/third-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.banner-four {
+    background-image: url(./assets/fourth-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.banner-one {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.banner-one .first-banner {
+    margin-left: 10%;
+}
+
+.banner-one .first-banner .box-1 {
+    align-items: baseline;
+    display: flex;
+}
+
+.banner-one .first-banner .box-1 p {
+    color: #c7bed8;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 16px 0 0;
+    text-decoration: line-through;
+    width: auto;
+}
+
+.banner-one .first-banner .box-1 h1 {
+    color: #5f1f9c;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+
+.banner-one .first-banner p:nth-child(2) {
+    color: #3e2a80;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 16px 0 0;
+}
+
+.banner-one .first-banner p:nth-child(3) {
+    color: #371f7b;
+    font-size: 1.25rem;
+    margin: 12px 0 24px;
+}
+
+.cta-btn-container a {
+    align-items: center;
+    background-color: #6739b7;
+    border-radius: 33px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    padding: 16px 50px;
+    text-decoration: none;
+}
+
+.banner-two {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.banner-two .second-banner {
+    color: #fff;
+    margin-left: 16%;
+}
+
+.banner-two .second-banner h1 {
+    font-size: 2.875rem;
+    line-height: 1.4;
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+}
+
+.banner-two .second-banner p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.88;
+    width: 400px;
+    color: rgb(55, 31, 123);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.cta-btn-container-2 a {
+    align-items: center;
+    background-color: #6739b7;
+    border-radius: 33px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.banner-three {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.banner-three .third-banner {
+    color: #fff;
+    margin-left: 16%;
+}
+
+.banner-three .third-banner h1 {
+    font-size: 2.875rem;
+    line-height: 1.4;
+    margin-top: 0;
+}
+
+.banner-three .third-banner h1 > span {
+    font-size: 2.875rem;
+    line-height: 1.4;
+}
+
+.banner-three .third-banner h3 {
+    color: #c2a6ff;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.banner-three .third-banner p {
+    color: #c4bcf2;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.88;
+    width: 400px;
 }
