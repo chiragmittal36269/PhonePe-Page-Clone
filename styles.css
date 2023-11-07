@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /* nav section */
@@ -65,14 +67,16 @@ nav .navigation-links a {
     top: 5px;
     /* width: 1296px; */
     width: 100%;
-    height: 403.2px;
+    /* height: 403.2px; */
+    height: 417.2px;
     /* overflow: auto; */
 }
 
 .banner {
     display: flex;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    height: 392px;
     overflow: auto;
 }
 
@@ -148,7 +152,7 @@ nav .navigation-links a {
 .banner-one .first-banner .box-1 h1 {
     color: #5f1f9c;
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 1;
     margin: 0;
 }
@@ -156,7 +160,7 @@ nav .navigation-links a {
 .banner-one .first-banner p:nth-child(2) {
     color: #3e2a80;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 1.2;
     margin: 16px 0 0;
 }
@@ -330,6 +334,7 @@ nav .navigation-links a {
     position: static !important;
     text-align: center;
     width: 100%;
+    height: 25.2px;
 }
 
 .slick-dots li {
@@ -406,8 +411,15 @@ nav .navigation-links a {
     width: 49%;
 }
 
+.second-section .first-inner .second-inner a:hover {
+    border: 1px solid #fff;
+    border-right: none;
+    box-shadow: 0 19px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
 .second-section .first-inner .second-inner a:first-child {
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTgiIGhlaWdodD0iMzAxIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InByZWZpeF9fYSIgeDE9IjUwJSIgeDI9IjUwJSIgeTE9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg0NTNGMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzM2MTg2OSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjUyMyAuNDI5KSI+PHRleHQgZmlsbD0iI0ZGRiIgZm9udC1mYW1pbHk9IlBvcHBpbnMtU2VtaUJvbGQsIFBvcHBpbnMiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI1MDAiIGxldHRlci1zcGFjaW5nPSItLjM2Ij48dHNwYW4geD0iMTM0LjIzMSIgeT0iODAuNzIyIj7igrk8L3RzcGFuPjwvdGV4dD48cGF0aCBmaWxsPSIjRThGQ0ZGIiBkPSJNMCAxNTAuMDM1QzAgNjcuMjA1IDY3LjEzNS4wNSAxNDkuOTY1LjAyOUwyNTcuNDc3IDB2Mjk5LjkzbC0xMDcuNTEyLjAzQzY3LjE2NSAyOTkuOTgyLjAyMiAyMzIuODc2IDAgMTUwLjA3NXYtLjA0eiIvPjxwYXRoIGZpbGw9InVybCgjcHJlZml4X19hKSIgZD0iTTk1LjIzNSAxNTcuNjMyYzE1LjgxNC03LjYgMjkuMjc4LTE5LjU5NCAzNy43OC0zNS4wOCAxMC4zMzUtMTguODI2IDkuMTctMzguNDMyIDkuMTctNTkuMzQ1VjMyLjAzQzkxLjcgMjguMDUyIDcwLjcyNiAwIDcwLjcyNiAwUzQ5Ljc0OSAyOC4wNTItLjczNiAzMi4wM3YzMS4xNzdjMCAyMC45MTMtMS4xNiA0MC41MTkgOS4xNzYgNTkuMzQ1IDguNDk3IDE1LjQ4NiAyMS45NjYgMjcuNDggMzcuNzc0IDM1LjA4IDcuODI4IDMuNzYgMTYuMDM1IDYuNDc3IDI0LjQ5NSA4LjM2OCA4LjQ2LTEuODkgMTYuNjk4LTQuNjA3IDI0LjUyNi04LjM2OHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDgwLjI1MiA2Mi41NzEpIi8+PHBhdGggZmlsbD0iIzM2MTg2OSIgZD0iTTE1MS40NzcgMjI4LjU3MWM4LjM5OS0xLjg5IDE2LjU3OC00LjYwNyAyNC4zNS04LjM2NyAxNS42OTgtNy42IDI5LjA2NS0xOS41OTUgMzcuNTA2LTM1LjA4IDEwLjI2LTE4LjgyNyA5LjEwNS0zOC40MzIgOS4xMDUtNTkuMzQ2Vjk0LjYwMWMtNTAuMTIxLTMuOTc3LTcwLjk0NS0zMi4wMy03MC45NDUtMzIuMDNsLS4wMTYgMTY2eiIvPjxjaXJjbGUgY3g9IjE1MS40NzciIGN5PSIxNTIuNzUxIiByPSIxOS41MjkiIGZpbGw9IiNGREFENzgiLz48L2c+PC9zdmc+);
+    /* background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTgiIGhlaWdodD0iMzAxIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InByZWZpeF9fYSIgeDE9IjUwJSIgeDI9IjUwJSIgeTE9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg0NTNGMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzM2MTg2OSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjUyMyAuNDI5KSI+PHRleHQgZmlsbD0iI0ZGRiIgZm9udC1mYW1pbHk9IlBvcHBpbnMtU2VtaUJvbGQsIFBvcHBpbnMiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI1MDAiIGxldHRlci1zcGFjaW5nPSItLjM2Ij48dHNwYW4geD0iMTM0LjIzMSIgeT0iODAuNzIyIj7igrk8L3RzcGFuPjwvdGV4dD48cGF0aCBmaWxsPSIjRThGQ0ZGIiBkPSJNMCAxNTAuMDM1QzAgNjcuMjA1IDY3LjEzNS4wNSAxNDkuOTY1LjAyOUwyNTcuNDc3IDB2Mjk5LjkzbC0xMDcuNTEyLjAzQzY3LjE2NSAyOTkuOTgyLjAyMiAyMzIuODc2IDAgMTUwLjA3NXYtLjA0eiIvPjxwYXRoIGZpbGw9InVybCgjcHJlZml4X19hKSIgZD0iTTk1LjIzNSAxNTcuNjMyYzE1LjgxNC03LjYgMjkuMjc4LTE5LjU5NCAzNy43OC0zNS4wOCAxMC4zMzUtMTguODI2IDkuMTctMzguNDMyIDkuMTctNTkuMzQ1VjMyLjAzQzkxLjcgMjguMDUyIDcwLjcyNiAwIDcwLjcyNiAwUzQ5Ljc0OSAyOC4wNTItLjczNiAzMi4wM3YzMS4xNzdjMCAyMC45MTMtMS4xNiA0MC41MTkgOS4xNzYgNTkuMzQ1IDguNDk3IDE1LjQ4NiAyMS45NjYgMjcuNDggMzcuNzc0IDM1LjA4IDcuODI4IDMuNzYgMTYuMDM1IDYuNDc3IDI0LjQ5NSA4LjM2OCA4LjQ2LTEuODkgMTYuNjk4LTQuNjA3IDI0LjUyNi04LjM2OHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDgwLjI1MiA2Mi41NzEpIi8+PHBhdGggZmlsbD0iIzM2MTg2OSIgZD0iTTE1MS40NzcgMjI4LjU3MWM4LjM5OS0xLjg5IDE2LjU3OC00LjYwNyAyNC4zNS04LjM2NyAxNS42OTgtNy42IDI5LjA2NS0xOS41OTUgMzcuNTA2LTM1LjA4IDEwLjI2LTE4LjgyNyA5LjEwNS0zOC40MzIgOS4xMDUtNTkuMzQ2Vjk0LjYwMWMtNTAuMTIxLTMuOTc3LTcwLjk0NS0zMi4wMy03MC45NDUtMzIuMDNsLS4wMTYgMTY2eiIvPjxjaXJjbGUgY3g9IjE1MS40NzciIGN5PSIxNTIuNzUxIiByPSIxOS41MjkiIGZpbGw9IiNGREFENzgiLz48L2c+PC9zdmc+); */
+    background-image: url(./assets/section-2-image-1.svg);
     background-position: 100%;
     background-repeat: no-repeat;
 }
@@ -419,6 +431,7 @@ nav .navigation-links a {
     line-height: 1.33;
     margin-bottom: 10px;
     margin-left: 30px;
+    margin-top: 24.9px;
 }
 
 .second-section .first-inner .second-inner a:first-child p {
@@ -428,6 +441,44 @@ nav .navigation-links a {
     line-height: 2;
     margin-left: 30px;
     margin-top: 10px;
+    margin-bottom: 16px;
+}
+.second-section .first-inner .second-inner a:first-child div span {
+    color: #6739b7;
+    font-size: 39px;
+    margin-left: 30px;
+}
+
+.second-section .first-inner .second-inner a:last-child {
+    background-image: url(./assets/section-2-image-2.svg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+.second-section .first-inner .second-inner a:last-child h2 {
+    color: #361968;
+    font-size: 1.875rem;
+    font-weight: 500;
+    line-height: 1.33;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 24.9px;
+}
+
+.second-section .first-inner .second-inner a:last-child p {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.second-section .first-inner .second-inner a:last-child div span {
+    color: #6739b7;
+    font-size: 39px;
+    margin-left: 30px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1268px) {
