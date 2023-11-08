@@ -655,6 +655,10 @@ nav .navigation-links a {
     overflow: hidden;
 }
 
+/* .fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-1:hover {
+    transform: scale3d(1.1, 1.1, 1);
+} */
+
 .fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-3 {
     filter: brightness(0.6);
     transform: scaleX(1);
@@ -662,6 +666,10 @@ nav .navigation-links a {
     position: relative;
     overflow: hidden;
 }
+
+/* .fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-3:hover {
+    transform: scale3d(1.1, 1.1, 1);
+} */
 
 .fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-5 {
     transform: scaleX(1);
@@ -671,6 +679,10 @@ nav .navigation-links a {
     overflow: hidden;
 }
 
+/* .fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-5:hover {
+    transform: scale3d(1.1, 1.1, 1);
+} */
+
 .fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-7 {
     filter: brightness(0.6);
     transform: scaleX(1);
@@ -679,12 +691,133 @@ nav .navigation-links a {
     overflow: hidden;
 }
 
+/* .fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-7:hover {
+    transform: scale3d(1.1, 1.1, 1);
+} */
+
 .fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-9 {
     filter: brightness(0.6);
     transform: scaleX(1);
     transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
     position: relative;
     overflow: hidden;
+}
+
+/* .fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-9:hover {
+    transform: scale3d(1.1, 1.1, 1);
+} */
+
+.carousal-div-1:hover,
+.carousal-div-2:hover,
+.carousal-div-3:hover,
+.carousal-div-4:hover,
+.carousal-div-5:hover {
+    z-index: 10 !important;
+}
+
+.carousal-content-image-2,
+.carousal-content-image-4,
+.carousal-content-image-6,
+.carousal-content-image-8,
+.carousal-content-image-10 {
+    border-style: none;
+    position: absolute;
+    bottom: 80px;
+    cursor: pointer;
+    display: none;
+    height: 80px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    width: 80px;
+}
+
+.carousal-div-1:hover .carousal-content-image-2,
+.carousal-div-2:hover .carousal-content-image-4,
+.carousal-div-3:hover .carousal-content-image-6,
+.carousal-div-4:hover .carousal-content-image-8,
+.carousal-div-5:hover .carousal-content-image-10 {
+    display: flex;
+}
+
+.carousal-content-image-1 img,
+.carousal-content-image-3 img,
+.carousal-content-image-5 img,
+.carousal-content-image-7 img,
+.carousal-content-image-9 img {
+    transform: scale3d(1, 1, 1);
+    transition: all .5s ease-in-out;
+}
+
+.carousal-div-1:hover .carousal-content-image-1 img,
+.carousal-div-2:hover .carousal-content-image-3 img,
+.carousal-div-3:hover .carousal-content-image-5 img,
+.carousal-div-4:hover .carousal-content-image-7 img,
+.carousal-div-5:hover .carousal-content-image-9 img {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.fourth-section .first-inner .second-inner .btn-container {
+    background-color: transparent;
+    color: inherit;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.fourth-section .first-inner .second-inner .btn-container .inner-btn-container {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    min-width: max-content;
+    padding: 0 16px;
+    user-select: none;
+    background-color: #fff;
+    border: 1px solid #533093;
+    border-radius: 18px;
+    color: #371f7b;
+    height: 36px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    width: 244px;
+}
+
+.fourth-section .first-inner .second-inner .btn-container .btn-container__btn noTensionBtn span {
+    color: inherit;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.fourth-section .first-inner .second-inner .btn-container .inner-btn-container:hover {
+    background-color: #371f7b;
+    box-shadow: none;
+    color: #fff;
+}
+
+.fourth-section .first-inner .second-inner .box-4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fourth-section .first-inner .second-inner .box-4 .box-4-1 {
+    font-weight: 400;
+    line-height: 2;
+    opacity: 0.8;
+    text-align: center;
+    width: 960px;
+}
+
+.fourth-section .first-inner .second-inner .box-4 .box-4-1 span {
+    color: #6b35a9;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1268px) {
