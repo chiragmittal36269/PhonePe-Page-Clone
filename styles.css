@@ -570,6 +570,123 @@ nav .navigation-links a {
     height: 100%;
 }
 
+/* fourth section */
+
+.fourth-section {
+    min-width: max-content;
+    width: 100%;
+}
+
+.fourth-section .first-inner {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1268px;
+}
+
+.fourth-section .first-inner .second-inner {
+    font-size: 16px;
+    width: 100%;
+}
+
+.fourth-section .first-inner .second-inner .box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.fourth-section .first-inner .second-inner .box-1 .box-1-1 {
+    font-size: 16px;
+    height: 230px;
+    width: 550px;
+}
+
+.fourth-section .first-inner .second-inner .box-1 .box-1-1 img {
+    width: 100%;
+}
+
+.fourth-section .first-inner .second-inner .box-1 .box-1-2 img {
+    width: 170px;
+    border-style: none;
+}
+
+.fourth-section .first-inner .second-inner .box-2 {
+    display: flex;
+    height: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.fourth-section .first-inner .second-inner .box-2 .box-2-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+}
+
+.fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div {
+    height: 350px;
+    position: relative;
+    width: 20%;
+}
+
+.fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div {
+    border-radius: 45px;
+    box-shadow: 0 3px 13px 2px rgba(0, 0, 0, 0.5);
+    height: 440px;
+    left: -58%;
+    overflow: hidden;
+    position: absolute;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 450px;
+    transform: scale3d(0.839, 0.839, 1);
+}
+
+.fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-1 {
+    filter: brightness(0.6);
+    transform: scaleX(1);
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-3 {
+    filter: brightness(0.6);
+    transform: scaleX(1);
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-5 {
+    transform: scaleX(1);
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    filter: brightness(1);
+    position: relative;
+    overflow: hidden;
+}
+
+.fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-7 {
+    filter: brightness(0.6);
+    transform: scaleX(1);
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.fourth-section .first-inner .second-inner .box-2 .box-2-2 .carousal-div .carousal-content-div .carousal-content-image-9 {
+    filter: brightness(0.6);
+    transform: scaleX(1);
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    position: relative;
+    overflow: hidden;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 1268px) {
     .hero-section {
         width: 1268px;
